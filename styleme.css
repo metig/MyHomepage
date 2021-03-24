@@ -33,3 +33,6 @@ img{
     display: flex;
     margin: 10px;
 }
+footer{
+    float: right;
+}
