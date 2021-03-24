@@ -1,0 +1,19 @@
+h1{
+    background-color: #F0F0F0   (red=240,   green=240,   blue=240);
+    color: #A4A400  (red=164,  green=164,  blue=0);
+    font-family: Lucida Sans Unicode, Helvetica, Arial, or any sans-serif;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+body{
+    color:#404040  (red=64,  green=64,  blue=64);
+    font-size: 11pt; 
+    font-family: Georgia, Garamond, sans-serif; 
+}
+a{
+    color:  #A4A400 (red=164, green=164, blue=0); 
+}
+
+li{
+    
+}
