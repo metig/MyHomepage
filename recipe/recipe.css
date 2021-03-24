@@ -1,3 +1,7 @@
+body{
+    background-image: url(/recipe/recipeImages/silverware.jpg);
+    background-attachment: fixed;
+}
 header{ 
     font-size: 22pt;
     text-align: center;
@@ -20,8 +24,8 @@ a{
     color:  #A4A400 ; 
 }
 
-li{
-
+ul{
+    list-style: url(/recipe/recipeImages/pie_bullet.png);
 }
 .comments{
     background-color:  #FFFFA8 ;
