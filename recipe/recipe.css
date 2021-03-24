@@ -1,7 +1,7 @@
 h1{
     background-color: #F0F0F0   (red=240,   green=240,   blue=240);
     color: #A4A400  (red=164,  green=164,  blue=0);
-    font-family: Lucida Sans Unicode, Helvetica, Arial, or any sans-serif;
+    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
     font-size: 18pt;
     text-decoration: underline;
 }
@@ -15,5 +15,11 @@ a{
 }
 
 li{
-    
+
+}
+p{
+    background-color:  #FFFFA8 (red=255, green=255, blue=168);
+}
+footer{
+    float: right;
 }
