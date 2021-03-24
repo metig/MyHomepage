@@ -1,24 +1,31 @@
+header{ 
+    font-size: 22pt;
+    text-align: center;
+}
 h1{
-    background-color: #F0F0F0   (red=240,   green=240,   blue=240);
-    color: #A4A400  (red=164,  green=164,  blue=0);
+    background-color: #F0F0F0 ;
+    color: #A4A400 ;
     font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
     font-size: 18pt;
     text-decoration: underline;
 }
+
 body{
-    color:#404040  (red=64,  green=64,  blue=64);
+    
+    color:#404040 ;
     font-size: 11pt; 
     font-family: Georgia, Garamond, sans-serif; 
 }
 a{
-    color:  #A4A400 (red=164, green=164, blue=0); 
+    color:  #A4A400 ; 
 }
 
 li{
 
 }
-p{
-    background-color:  #FFFFA8 (red=255, green=255, blue=168);
+.comments{
+    background-color:  #FFFFA8 ;
+    text-indent: 50px;
 }
 footer{
     float: right;
