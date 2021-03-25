@@ -27,7 +27,7 @@ a{
 ul{
     list-style: url(/recipe/recipeImages/pie_bullet.png);
 }
-.comments{
+#comments{
     background-color:  #FFFFA8 ;
     text-indent: 50px;
 }
