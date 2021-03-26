@@ -34,7 +34,7 @@ ul{
     list-style: circle; 
 }
 .pic{
-
+    text-align: center;
 }
 img{
     border-radius: 50%;
