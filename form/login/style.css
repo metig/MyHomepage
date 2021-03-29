@@ -1,0 +1,33 @@
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1pt solid lightgray;
+    border-radius: 1%;
+    width: 500pt;
+    padding: 30px;
+
+}
+input[type=text], input[type=password] {
+    margin-top: 5px;
+    width: 90%;
+    padding: 12px;
+    border: 2px solid lightgray;
+    border-radius: 2%;
+    display: block;
+}
+input[type=submit]{
+    background-color: rgb(53, 96, 216);
+    text-decoration: none;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    margin: 4px 2px;
+    padding: 10px 20px;
+
+}
+#message{
+    font-size: 15px;
+    color: gray;
+}

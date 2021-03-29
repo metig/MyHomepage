@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1%;
+    width: 500pt;*/
+    padding: 10px; 
+}
+#buttons{
+    float: right;
+    margin-top: 30px;
+}
+h1 {
+    text-align: center;
+}
+nav {
+    display: inline;
+    background-color: lightskyblue;
+}

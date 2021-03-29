@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+     <form name ="form1">
+        <div class="container">
+            <label for="email">Email address</label> <br>
+            <input type="text" placeholder="Enter email" name="email" required/> 
+            <p id="message">
+                We'll never share your email with anyone else.
+            </p>
+            
+            <label for="password">Password</label><br>
+            <input type="text" placeholder="Password" name="password"  pattern="(?=d+)(?=[a z]*)(?=[A Z]*).{10,}" />
+            <br>
+                <!-- q#3 -->
+            <label for="website">Website</label><br>
+            <input type="text" placeholder="URL" name="website" pattern="https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)">    
+            <br>
+            <input type="checkbox" name="checkout"/>
+            <label for="checkout">Check me out</label><br>
+            <br>
+            <input id="submit" type="submit" />
+
+            
+        </div>
+    </form>
+    <script>
+        document.getElementById("submit").addEventListener("click", printCredential);
+    function printCredential(){
+        var email = document.form1.email.value;
+        var password = document.form1.password.value;
+        var website = document.form1.website.value;
+        console.log("here" + email + password + website);
+    }
+</script>
+</body>
+</html>
