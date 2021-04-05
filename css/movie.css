@@ -1,6 +1,6 @@
 
 body{
-    background: url(images/background.png);
+    background: url(img/background.png);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 8pt;
     margin: 0;
@@ -8,7 +8,7 @@ body{
 }
 
 .banner{
- background: url(images/bannerbg.png);
+ background: url(img/bannerbg.png);
   background-size: 50px;
   background-repeat: repeat-x;
   display: block;
@@ -41,7 +41,7 @@ h1{
     
 }
 #top{
-    background: url(images/rbg.png);
+    background: url(img/rbg.png);
 }
 #percent{
     color: red;
@@ -53,7 +53,7 @@ h1{
     column-count: 2;
     /* column-width: 47%; */
     column-gap: 2%;
-    background-image: url(images/background.png);
+    background-image: url(img/background.png);
     padding-right: 5pt;
     
 
