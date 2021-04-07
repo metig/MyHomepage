@@ -1,3 +1,4 @@
+
 document.getElementById("aProduct").addEventListener("click", popEvents)
 
 function popEvents(){
@@ -10,3 +11,5 @@ function popEvents(){
 
     alert("product name: " + name + "\n" + "product number: " + prodNum + "\n" + "quantity in stock: "  + qunStock + "\n" + "supplier: " + supplier + "\n" + "unit price: "  + unitPrice + "\n" + "date supplied: " + dSupplier)
 }
+
+

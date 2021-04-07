@@ -6,24 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email Login</title>
     <link rel="stylesheet" href="css/login.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
 </head>
 <body>
     
 
-     <form name ="form1">
+     <form name ="form1" id="form1">
         <div class="container">
             <label for="email">Email address</label> <br>
-            <input type="text" placeholder="Enter email" name="email" required/> 
+            <input type="text" placeholder="Enter email" name="email" id="email" required/> 
             <p id="message">
                 We'll never share your email with anyone else.
             </p>
             
             <label for="password">Password</label><br>
-            <input type="text" placeholder="Password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{10,}$" minlength="10"/>
+            <input type="text" placeholder="Password" id="passsword" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{10,}$" minlength="10"/>
             <br>
                 <!-- q#3 -->
             <label for="website">Website</label><br>
-            <input type="text" placeholder="URL" name="website" pattern="^https?:\/\/[a-z]+\..+$">    
+            <input type="text" placeholder="URL" id="website" name="website" pattern="^https?:\/\/[a-z]+\..+$">    
             <br>
             <input type="checkbox" name="checkout"/>
             <label for="checkout">Check me out</label><br>
